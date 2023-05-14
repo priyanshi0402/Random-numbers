@@ -1,0 +1,6 @@
+framework module Pods_Random_numbers {
+  umbrella header "Pods-Random numbers-umbrella.h"
+
+  export *
+  module * { export * }
+}

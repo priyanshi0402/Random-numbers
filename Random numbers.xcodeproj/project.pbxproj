@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B38666B2A018A05008EC131 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B38666A2A018A05008EC131 /* SettingViewController.swift */; };
+		5B38666F2A018BDF008EC131 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B38666D2A018BDF008EC131 /* SettingsTableViewCell.swift */; };
+		5B3866702A018BDF008EC131 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B38666E2A018BDF008EC131 /* SettingsTableViewCell.xib */; };
+		5B3866752A018C4B008EC131 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3866722A018C4B008EC131 /* CustomView.swift */; };
+		5B3866762A018C4B008EC131 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3866732A018C4B008EC131 /* CustomButton.swift */; };
+		5B3866772A018C4B008EC131 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3866742A018C4B008EC131 /* CustomTextField.swift */; };
+		5B3866792A018F3C008EC131 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3866782A018F3C008EC131 /* GeneratorViewController.swift */; };
 		5B8CD6DC2A01706A009ECDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD6DB2A01706A009ECDD5 /* AppDelegate.swift */; };
-		5B8CD6DE2A01706A009ECDD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD6DD2A01706A009ECDD5 /* SceneDelegate.swift */; };
 		5B8CD6E02A01706A009ECDD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD6DF2A01706A009ECDD5 /* ViewController.swift */; };
 		5B8CD6E32A01706A009ECDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CD6E12A01706A009ECDD5 /* Main.storyboard */; };
 		5B8CD6E52A01706C009ECDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CD6E42A01706C009ECDD5 /* Assets.xcassets */; };
 		5B8CD6E82A01706C009ECDD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CD6E62A01706C009ECDD5 /* LaunchScreen.storyboard */; };
+		62BDFE0900E860236713C91A /* Pods_Random_numbers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70126CCFFA0D8AC9479F0C15 /* Pods_Random_numbers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B38666A2A018A05008EC131 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5B38666D2A018BDF008EC131 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		5B38666E2A018BDF008EC131 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		5B3866722A018C4B008EC131 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5B3866732A018C4B008EC131 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5B3866742A018C4B008EC131 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5B3866782A018F3C008EC131 /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
 		5B8CD6D82A01706A009ECDD5 /* Random numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8CD6DB2A01706A009ECDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B8CD6DD2A01706A009ECDD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5B8CD6DF2A01706A009ECDD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B8CD6E22A01706A009ECDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8CD6E42A01706C009ECDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8CD6E72A01706C009ECDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8CD6E92A01706C009ECDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70126CCFFA0D8AC9479F0C15 /* Pods_Random_numbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Random_numbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B323835F5EF2139FCB8E0623 /* Pods-Random numbers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Random numbers.release.xcconfig"; path = "Target Support Files/Pods-Random numbers/Pods-Random numbers.release.xcconfig"; sourceTree = "<group>"; };
+		FED0D1C3E0402456A47DDFA5 /* Pods-Random numbers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Random numbers.debug.xcconfig"; path = "Target Support Files/Pods-Random numbers/Pods-Random numbers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BDFE0900E860236713C91A /* Pods_Random_numbers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B38666C2A018BC9008EC131 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B38666D2A018BDF008EC131 /* SettingsTableViewCell.swift */,
+				5B38666E2A018BDF008EC131 /* SettingsTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5B3866712A018C4B008EC131 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				5B3866722A018C4B008EC131 /* CustomView.swift */,
+				5B3866732A018C4B008EC131 /* CustomButton.swift */,
+				5B3866742A018C4B008EC131 /* CustomTextField.swift */,
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
 		5B8CD6CF2A01706A009ECDD5 = {
 			isa = PBXGroup;
 			children = (
 				5B8CD6DA2A01706A009ECDD5 /* Random numbers */,
 				5B8CD6D92A01706A009ECDD5 /* Products */,
+				96E21F1A91ECF5D37650A89D /* Pods */,
+				5EB597245D09B59C1349AB25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,35 @@
 		5B8CD6DA2A01706A009ECDD5 /* Random numbers */ = {
 			isa = PBXGroup;
 			children = (
+				5B3866712A018C4B008EC131 /* Custom Controls */,
+				5B38666C2A018BC9008EC131 /* Cells */,
 				5B8CD6DB2A01706A009ECDD5 /* AppDelegate.swift */,
-				5B8CD6DD2A01706A009ECDD5 /* SceneDelegate.swift */,
 				5B8CD6DF2A01706A009ECDD5 /* ViewController.swift */,
+				5B38666A2A018A05008EC131 /* SettingViewController.swift */,
+				5B3866782A018F3C008EC131 /* GeneratorViewController.swift */,
 				5B8CD6E12A01706A009ECDD5 /* Main.storyboard */,
 				5B8CD6E42A01706C009ECDD5 /* Assets.xcassets */,
 				5B8CD6E62A01706C009ECDD5 /* LaunchScreen.storyboard */,
 				5B8CD6E92A01706C009ECDD5 /* Info.plist */,
 			);
 			path = "Random numbers";
+			sourceTree = "<group>";
+		};
+		5EB597245D09B59C1349AB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70126CCFFA0D8AC9479F0C15 /* Pods_Random_numbers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96E21F1A91ECF5D37650A89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED0D1C3E0402456A47DDFA5 /* Pods-Random numbers.debug.xcconfig */,
+				B323835F5EF2139FCB8E0623 /* Pods-Random numbers.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B8CD6EC2A01706C009ECDD5 /* Build configuration list for PBXNativeTarget "Random numbers" */;
 			buildPhases = (
+				D7603FFDD89AEB89ECFD8A0D /* [CP] Check Pods Manifest.lock */,
 				5B8CD6D42A01706A009ECDD5 /* Sources */,
 				5B8CD6D52A01706A009ECDD5 /* Frameworks */,
 				5B8CD6D62A01706A009ECDD5 /* Resources */,
+				FE5F31C8BB55291AC0ED2AC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +187,54 @@
 			files = (
 				5B8CD6E82A01706C009ECDD5 /* LaunchScreen.storyboard in Resources */,
 				5B8CD6E52A01706C009ECDD5 /* Assets.xcassets in Resources */,
+				5B3866702A018BDF008EC131 /* SettingsTableViewCell.xib in Resources */,
 				5B8CD6E32A01706A009ECDD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7603FFDD89AEB89ECFD8A0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Random numbers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5F31C8BB55291AC0ED2AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Random numbers/Pods-Random numbers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Random numbers/Pods-Random numbers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Random numbers/Pods-Random numbers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B8CD6D42A01706A009ECDD5 /* Sources */ = {
@@ -139,8 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B8CD6E02A01706A009ECDD5 /* ViewController.swift in Sources */,
+				5B3866792A018F3C008EC131 /* GeneratorViewController.swift in Sources */,
 				5B8CD6DC2A01706A009ECDD5 /* AppDelegate.swift in Sources */,
-				5B8CD6DE2A01706A009ECDD5 /* SceneDelegate.swift in Sources */,
+				5B3866752A018C4B008EC131 /* CustomView.swift in Sources */,
+				5B3866772A018C4B008EC131 /* CustomTextField.swift in Sources */,
+				5B3866762A018C4B008EC131 /* CustomButton.swift in Sources */,
+				5B38666F2A018BDF008EC131 /* SettingsTableViewCell.swift in Sources */,
+				5B38666B2A018A05008EC131 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		5B8CD6ED2A01706C009ECDD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED0D1C3E0402456A47DDFA5 /* Pods-Random numbers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,23 +402,29 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.randomnumbers.ios.Random-numbers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomnumbers.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5B8CD6EE2A01706C009ECDD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B323835F5EF2139FCB8E0623 /* Pods-Random numbers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,18 +436,23 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.randomnumbers.ios.Random-numbers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomnumbers.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
